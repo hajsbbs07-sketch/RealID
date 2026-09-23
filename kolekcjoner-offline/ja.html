@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <link rel="stylesheet" href="assets/css/main1.css">
+    <script>
+        const ja = localStorage.getItem("moje")
+        if (ja === "false") {
+            window.location.href = "fbi.html";
+        }
+    </script>
+</head>
+
+<body>
+
+<div class="service">
+                <img class="service_icon" onclick="sendTo('id.html')" src="assets/img/house.png">
+                <p class="service_name">Dane zameldowania</p>
+                <img class="arrow" src="assets/img/right_arrow_sharp.png">
+</div>
+<script src="assets/js/bar.js"></script>
+<script src="assets/js/manifest.js"></script>
+<script src="assets/js/home.js"></script>
+</body>
+         const ja = localStorage.getItem("moje")
+    if (ja === "false") {
+        window.location.href = "ja.html";
+    }
+</html>
+
+
